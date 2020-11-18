@@ -144,6 +144,8 @@ h1 {
 
 h1 > span {
     font-family: 'Ultra',serif;
+    color: beige;
+    background-color: firebrick;
 }
 
 h2 {
@@ -155,15 +157,19 @@ h3 {
 }
 
 img {
-    
+    width: initial;
+    height: initial;
 }
 
 article {
-    
+    float: left;
+    width: auto;
 }
 
 aside {
     display:flex;
+    float: right;
+    width: auto;
 }
 
 .main-section {
