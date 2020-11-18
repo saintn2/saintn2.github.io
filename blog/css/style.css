@@ -185,6 +185,11 @@ aside {
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+aside > img {
+    width: 70%;
+    height: 70%;
+}
+
 .main-section {
     display:flex;
 }
