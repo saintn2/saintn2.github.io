@@ -160,8 +160,8 @@ h3 {
 }
 
 img {
-    width: initial;
-    height: initial;
+    width: 100px;
+    height: 100px;
 }
 
 article {
