@@ -109,18 +109,6 @@
 
 /* Layout */
 
-main {
-    
-}
-
-section {
-    
-}
-
-figure {
-    
-}
-
 figcaption {
     background-color: olivedrab;
 }
@@ -128,10 +116,6 @@ figcaption {
 nav {
     font-family: 'Robotoslab',serif;
     display: inline;
-}
-
-footer {
-    
 }
 
 h1 {
@@ -189,22 +173,17 @@ aside > img {
     height: 70%;
 }
 
+.expand {
+    font-size: 0.5rem; 
+    text-decoration: none; 
+}
+
 .main-section {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    display:flex;
 }
 
 time {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-style: italic;
-}
-
-p {
-    
-}
-
-footer {
-    
 }
