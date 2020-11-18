@@ -165,13 +165,13 @@ img {
 
 article {
     float: left;
-    width: auto;
+    width: 75%;
 }
 
 aside {
     display:flex;
     float: right;
-    width: auto;
+    width: 25%;
 }
 
 .main-section {
