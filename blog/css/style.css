@@ -48,12 +48,63 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
-html {
-    
+
+/* Font Import */
+
+@font-face {
+    font-family:Josefinslab;
+    src: url(../fonts/serif/josefinslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
 }
 
-body {
-    
+@font-face {
+    font-family:Robotoslab;
+    src: url(../fonts/serif/robotoslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:Rozhaone;
+    src: url(../fonts/serif/rozhaone-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:Ultra;
+    src: url(../fonts/serif/ultra-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:Lato;
+    src: url(../fonts/sans-serif/lato-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:Montserrat;
+    src: url(../fonts/sans-serif/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:Opensans;
+    src: url(../fonts/sans-serif/opensans-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:Roboto;
+    src: url(../fonts/sans-serif/roboto-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
 }
 
 /* Layout */
@@ -66,6 +117,11 @@ section {
     
 }
 
+.subsection {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+}
+
 figure {
     
 }
@@ -75,7 +131,7 @@ figcaption {
 }
 
 nav {
-    
+    font-family: 'Robotoslab',serif;
 }
 
 footer {
@@ -83,20 +139,22 @@ footer {
 }
 
 h1 {
-    
+    font-family: 'Lato',sans-serif;
+}
+
+h1 > span {
+    font-family: 'Ultra',serif;
 }
 
 h2 {
-    
+    font-family: 'Robotoslab',serif;
 }
 
 h3 {
-    
+    font-family: 'Robotoslab',serif;
 }
 
 img {
-    width:100%; 
-    max-width:4.5rem;
     
 }
 
@@ -105,11 +163,17 @@ article {
 }
 
 aside {
-    
+    display:flex;
+}
+
+.main-section {
+    display:flex;
 }
 
 time {
     
+    font-weight: lighter;
+    font-style: italic;
 }
 
 p {
