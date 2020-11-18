@@ -117,6 +117,12 @@ section {
     
 }
 
+.subsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
 figure {
     
 }
@@ -153,15 +159,10 @@ h3 {
     font-family: 'Robotoslab',serif;
 }
 
-.subsection {
-    display: flexgrid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-}
 
 .subsection > img {
-    width: 290.5px;
-    height: 350px;
+    width: auto;
+    height: auto;
 }
 
 .article-image {
@@ -190,9 +191,7 @@ aside > img {
 }
 
 .main-section {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    display:flex;
 }
 
 time {
