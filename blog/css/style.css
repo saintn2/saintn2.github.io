@@ -132,6 +132,7 @@ figcaption {
 
 nav {
     font-family: 'Robotoslab',serif;
+    display: inline;
 }
 
 footer {
@@ -146,6 +147,7 @@ h1 > span {
     font-family: 'Ultra',serif;
     color: beige;
     background-color: firebrick;
+    padding: 8px;
 }
 
 h2 {
