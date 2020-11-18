@@ -128,7 +128,7 @@ figure {
 }
 
 figcaption {
-    
+    background-color: olivedrab;
 }
 
 nav {
@@ -159,9 +159,17 @@ h3 {
     font-family: 'Robotoslab',serif;
 }
 
-img {
-    width: 100px;
-    height: 100px;
+
+.subsection > img {
+    width: auto;
+    height: auto;
+}
+
+.article-image {
+    float:left;
+    margin: 10px;
+    width: auto;
+    height: auto;
 }
 
 article {
@@ -182,7 +190,7 @@ aside {
 }
 
 time {
-    
+    font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-style: italic;
 }
@@ -191,8 +199,6 @@ p {
     
 }
 
-/* header and footer */
-
-header, footer {
+footer {
     
 }
