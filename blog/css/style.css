@@ -142,6 +142,7 @@ footer {
 
 h1 {
     font-family: 'Lato',sans-serif;
+    text-align: center
 }
 
 h1 > span {
@@ -178,6 +179,8 @@ article {
 }
 
 aside {
+    font-family: 'Robotoslab',serif;
+    font-size: 10pt;
     float: right;
     width: 25%;
     display: grid;
